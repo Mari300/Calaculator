@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator - Gheorghe Marin Adrian</title>
+    </head>
+    <body>
+        <div id='calc-contain'>
+  
+          <form name="calculator" 
+            style=
+             "background-color:black;
+              margin-left:300px;
+              margin-right:300px;
+              height:300px;">
+            <input type="text" name="answer"/>
+             
+            <br>
+            
+            <input type="button" style="width:100px; height:100px;" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" style="width:100px; height:100px;" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" style="width:100px; height:100px;" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" style="width:100px; height:100px;" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input type="button" style="width:100px; height:100px;" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" style="width:100px; height:100px;" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" style="width:100px; height:100px;" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" style="width:100px; height:100px;" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input type="button" style="width:100px; height:100px;" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" style="width:100px; height:100px;" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" style="width:100px; height:100px;" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" style="width:100px; height:100px;" value=" x " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input type="button" style="width:100px; height:100px;" value=" c " onclick="calculator.answer.value = ''" />
+            <input type="button" style="width:100px; height:100px;" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" style="width:100px; height:100px;" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+         </form>
+         </div>
+   </body>
+   </head>
+</html>
