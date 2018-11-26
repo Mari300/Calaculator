@@ -1,3 +1,11 @@
-form {
-    background-color: black;
+#outputbar {
+    height: 100px;
+    width: 100px;
+}
+input [type = "button": i ] {
+    color: blue;
+}
+#calc-contain {
+    width: 100px;
+    margin-left 50px;
 }
