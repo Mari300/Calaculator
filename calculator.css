@@ -1,3 +1,24 @@
+#calc-contain {
+    width:1000px;
+    height:600px;
+    margin-left:50px;
+    display:block;
+}
+form {
+    background-color:black;
+    margin-left:250px;
+    margin-right:300px;
+    height:450px;
+    width:700px;
+    border-radius: 10px;
+}
 h1 {
-    margin-left: 100px;
+    margin-left: 400px;
+    margin-right: 358px;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
 }
