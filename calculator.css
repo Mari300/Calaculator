@@ -4,8 +4,11 @@
     margin-left:50px;
     display:block;
 }
+html{
+    height : 700px;
+}
 body {
-    background-color: black;
+  background-color: black;
 }
 #outputbar {
     margin-left: 200px;
@@ -89,7 +92,7 @@ form {
 h1 { 
     color: white;
     margin-left: 400px;
-    margin-right: 358px;
+    margin-right: 445px;
     font-weight: 800;
     font-size: 40px;
     padding: 20px;
